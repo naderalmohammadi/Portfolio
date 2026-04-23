@@ -1,0 +1,5 @@
+# .gitignore file content
+# Create .gitignore file
+# The content follows below in triple backticks
+.next/
+node_modules/

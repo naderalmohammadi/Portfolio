@@ -1,0 +1,51 @@
+/* localagent/portfolio-web-app/portfolio-web-app/app/globals.css
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --card: #ffffff;
+  --card-foreground: #171717;
+  --primary: #000000;
+  --primary-foreground: #ffffff;
+  --input: #000000;
+  --input-foreground: #ffffff;
+  --border: #171717;
+  --popover: #ffffff;
+  --popover-foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #000000;
+    --foreground: #fafafa;
+    --card: #000000;
+    --card-foreground: #fafafa;
+    --primary: #fafafa;
+    --primary-foreground: #000000;
+    --input: #fafafa;
+    --input-foreground: #000000;
+    --border: #fafafa;
+    --popover: #000000;
+    --popover-foreground: #fafafa;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+```
+
+Now let me create the main portfolio page with the resume as code and website cards.
