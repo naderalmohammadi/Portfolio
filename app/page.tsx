@@ -17,8 +17,6 @@ type Project = {
 const RESUME_DATA = {
   name: "Nader Ramadan Almohammadi",
   contact: {
-    email: "Nader_Almohammadi@hotmail.com",
-    phone: "0563204153",
     linkedin: "https://www.linkedin.com/in/nader-almohammadi",
     github: "https://github.com/naderalmohammadi"
   },
