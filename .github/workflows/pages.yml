@@ -17,8 +17,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - run: npm ci
+      - run: npm ci --prefer-offline --no-audit --progress=false
       - run: npm run build
+      - run: ls -la out
+      - run: find out -maxdepth 2 -type f | sort | head -20
       - uses: actions/upload-pages-artifact@v1
         with:
           path: out
